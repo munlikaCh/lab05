@@ -57,8 +57,8 @@ export default {
         .catch((error) => {
           console.log(error)
         })
-    })
-  },
+    },
+  )},
   computed: {
     hasNextPage() {
       // First, calculate total pages
