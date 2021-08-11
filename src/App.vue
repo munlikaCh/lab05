@@ -32,7 +32,7 @@ export default {
 }
 #flashMessage{
   animation-name: yellowfade;
-  animation-duration: 3s;
+  animation-duration: 5s;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

@@ -24,6 +24,6 @@ export default {
 }
 #flashMessage2{
   animation-name: redfade;
-  animation-duration: 3s;
+  animation-duration: 5s;
 }
 </style>
