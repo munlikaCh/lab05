@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  inject: ['GStore','GStoreE']
+  inject: ['GStore']
 }
 </script>
 

@@ -6,16 +6,16 @@
 <script>
 export default {
   props: ['event'],
-  inject: ['GStoreE'],
+  inject: ['GStore'],
   methods: {
     edit(){
       this.$router.push({
         name: 'EventDetails',
         params: { id: this.event.id }
       })
-      this.GStoreE.flashMessage = 'The data has been updated in ' + this.event.title
+      this.GStore.flashMessage2 = 'The details in ' + this.event.title + ' already edited.'
       setTimeout(() => {
-        this.GStoreE.flashMessage = ''}
+        this.GStore.flashMessage2 = ''}
       ,3000)
     }
   }
